@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65AD8E121C26AF7300B08624 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AD8E111C26AF7300B08624 /* AppDelegate.swift */; };
+		65AD8E141C26AF7300B08624 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AD8E131C26AF7300B08624 /* ViewController.swift */; };
+		65AD8E171C26AF7300B08624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65AD8E151C26AF7300B08624 /* Main.storyboard */; };
+		65AD8E191C26AF7300B08624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65AD8E181C26AF7300B08624 /* Assets.xcassets */; };
+		65AD8E1C1C26AF7300B08624 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65AD8E1A1C26AF7300B08624 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65AD8E0E1C26AF7300B08624 /* Dos-Xmas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dos-Xmas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65AD8E111C26AF7300B08624 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65AD8E131C26AF7300B08624 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65AD8E161C26AF7300B08624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65AD8E181C26AF7300B08624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65AD8E1B1C26AF7300B08624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65AD8E1D1C26AF7300B08624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65AD8E0B1C26AF7300B08624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65AD8E051C26AF7300B08624 = {
+			isa = PBXGroup;
+			children = (
+				65AD8E101C26AF7300B08624 /* Dos-Xmas */,
+				65AD8E0F1C26AF7300B08624 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65AD8E0F1C26AF7300B08624 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65AD8E0E1C26AF7300B08624 /* Dos-Xmas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65AD8E101C26AF7300B08624 /* Dos-Xmas */ = {
+			isa = PBXGroup;
+			children = (
+				65AD8E111C26AF7300B08624 /* AppDelegate.swift */,
+				65AD8E131C26AF7300B08624 /* ViewController.swift */,
+				65AD8E151C26AF7300B08624 /* Main.storyboard */,
+				65AD8E181C26AF7300B08624 /* Assets.xcassets */,
+				65AD8E1A1C26AF7300B08624 /* LaunchScreen.storyboard */,
+				65AD8E1D1C26AF7300B08624 /* Info.plist */,
+			);
+			path = "Dos-Xmas";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65AD8E0D1C26AF7300B08624 /* Dos-Xmas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65AD8E201C26AF7300B08624 /* Build configuration list for PBXNativeTarget "Dos-Xmas" */;
+			buildPhases = (
+				65AD8E0A1C26AF7300B08624 /* Sources */,
+				65AD8E0B1C26AF7300B08624 /* Frameworks */,
+				65AD8E0C1C26AF7300B08624 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dos-Xmas";
+			productName = "Dos-Xmas";
+			productReference = 65AD8E0E1C26AF7300B08624 /* Dos-Xmas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65AD8E061C26AF7300B08624 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Zincer;
+				TargetAttributes = {
+					65AD8E0D1C26AF7300B08624 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = PSS5H54Q25;
+					};
+				};
+			};
+			buildConfigurationList = 65AD8E091C26AF7300B08624 /* Build configuration list for PBXProject "Dos-Xmas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65AD8E051C26AF7300B08624;
+			productRefGroup = 65AD8E0F1C26AF7300B08624 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65AD8E0D1C26AF7300B08624 /* Dos-Xmas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65AD8E0C1C26AF7300B08624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65AD8E1C1C26AF7300B08624 /* LaunchScreen.storyboard in Resources */,
+				65AD8E191C26AF7300B08624 /* Assets.xcassets in Resources */,
+				65AD8E171C26AF7300B08624 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65AD8E0A1C26AF7300B08624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65AD8E141C26AF7300B08624 /* ViewController.swift in Sources */,
+				65AD8E121C26AF7300B08624 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65AD8E151C26AF7300B08624 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65AD8E161C26AF7300B08624 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65AD8E1A1C26AF7300B08624 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65AD8E1B1C26AF7300B08624 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65AD8E1E1C26AF7300B08624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		65AD8E1F1C26AF7300B08624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65AD8E211C26AF7300B08624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dos-Xmas/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zincer.com.Dos-Xmas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		65AD8E221C26AF7300B08624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dos-Xmas/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zincer.com.Dos-Xmas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65AD8E091C26AF7300B08624 /* Build configuration list for PBXProject "Dos-Xmas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65AD8E1E1C26AF7300B08624 /* Debug */,
+				65AD8E1F1C26AF7300B08624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65AD8E201C26AF7300B08624 /* Build configuration list for PBXNativeTarget "Dos-Xmas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65AD8E211C26AF7300B08624 /* Debug */,
+				65AD8E221C26AF7300B08624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65AD8E061C26AF7300B08624 /* Project object */;
+}
